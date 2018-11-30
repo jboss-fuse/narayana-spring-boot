@@ -18,7 +18,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.snowdrop</groupId>
   <artifactId>narayana-spring-boot-parent</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2.fuse-730008</version>
   <packaging>pom</packaging>
 
   <name>Narayana Spring Boot :: parent</name>
@@ -51,7 +51,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <assertj.version>3.11.1</assertj.version>
-    <camel.version>2.20.2</camel.version>
+    <camel.version>2.21.0.fuse-730013</camel.version>
     <checkstyle.version>8.14</checkstyle.version>
     <commons-dbcp2.version>2.4.0</commons-dbcp2.version>
     <jboss-logging.version>3.2.1.Final</jboss-logging.version>
