@@ -60,7 +60,7 @@
     <junit.version>4.12</junit.version>
     <mockito.version>2.20.0</mockito.version>
     <narayana.version>5.8.0.Final</narayana.version>
-    <openshift-client.version>3.1.8</openshift-client.version>
+    <openshift-client.version>4.1.2</openshift-client.version>
     <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
     <spring.version>4.3.16.RELEASE</spring.version>
     <transaction-api.version>1.2</transaction-api.version>
