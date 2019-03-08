@@ -60,7 +60,7 @@
     <junit.version>4.12</junit.version>
     <mockito.version>2.20.0</mockito.version>
     <narayana.version>5.9.0.Final-redhat-00001</narayana.version>
-    <openshift-client.version>4.1.2</openshift-client.version>
+    <kubernetes-client.version>3.1.8</kubernetes-client.version>
     <spring-boot.version>1.5.12.RELEASE</spring-boot.version>
     <spring.version>4.3.16.RELEASE</spring.version>
     <transaction-api.version>1.2</transaction-api.version>
@@ -183,7 +183,7 @@
       <dependency>
         <groupId>io.fabric8</groupId>
         <artifactId>openshift-client</artifactId>
-        <version>${openshift-client.version}</version>
+        <version>${kubernetes-client.version}</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
