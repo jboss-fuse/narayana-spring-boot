@@ -21,7 +21,7 @@ import com.arjuna.ats.jta.logging.jtaLogger;
 /**
  * Narayana internal recovery error detector which has been introduced in JBTM-3017.
  *
- * @author <a href="mailto:zfeng@redhat.com>Zheng Feng</a>
+ * @author <a href="mailto:zfeng@redhat.com">Zheng Feng</a>
  */
 public class NarayanaInternalRecoveryErrorDetector implements RecoveryErrorDetector {
     @Override
