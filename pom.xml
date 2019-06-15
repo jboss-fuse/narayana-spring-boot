@@ -18,7 +18,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.snowdrop</groupId>
   <artifactId>narayana-spring-boot-parent</artifactId>
-  <version>2.1.1-SNAPSHOT</version>
+  <version>2.1.1.fuse-sb2-740003</version>
   <packaging>pom</packaging>
 
   <name>Narayana Spring Boot :: parent</name>
@@ -52,7 +52,7 @@
 
     <awaitility.version>3.0.0</awaitility.version>
     <byteman.version>4.0.6</byteman.version>
-    <camel.version>2.23.2</camel.version>
+    <camel.version>2.23.2.fuse-740003</camel.version>
     <checkstyle.version>8.20</checkstyle.version>
     <narayana.version>5.9.5.Final</narayana.version>
     <openshift-client.version>3.1.8</openshift-client.version>
