@@ -54,6 +54,7 @@
     <camel.version>2.20.2</camel.version>
     <checkstyle.version>8.5</checkstyle.version>
     <commons-dbcp2.version>2.4.0</commons-dbcp2.version>
+    <jackson2.version>2.9.9</jackson2.version>
     <jboss-logging.version>3.2.1.Final</jboss-logging.version>
     <jboss-transaction-spi.version>7.6.0.Final</jboss-transaction-spi.version>
     <jms-api.version>2.0.1</jms-api.version>
@@ -68,6 +69,7 @@
     <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+    <maven-dependency-plugin.version>2.8</maven-dependency-plugin.version>
     <maven-enforcer-plugin.version>3.0.0-M2</maven-enforcer-plugin.version>
     <maven-failsafe-plugin.version>2.22.1</maven-failsafe-plugin.version>
     <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
@@ -190,6 +192,31 @@
         <artifactId>camel-spring-boot</artifactId>
         <version>${camel.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.dataformat</groupId>
+        <artifactId>jackson-dataformat-yaml</artifactId>
+        <version>${jackson2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson2.version}.1</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${jackson2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>${jackson2.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.module</groupId>
+        <artifactId>jackson-module-jaxb-annotations</artifactId>
+        <version>${jackson2.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
@@ -216,7 +243,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>${maven-deploy-plugin.version}</version>
+          <version>${maven-dependency-plugin.version}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -420,4 +447,16 @@
     <module>narayana-spring-boot-starter-it</module>
     <module>openshift/recovery-controller</module>
   </modules>
+
+  <repositories>
+    <repository>
+      <id>redhat-ga</id>
+      <name>Redhat GA Repository</name>
+      <url>https://maven.repository.redhat.com/ga/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
 </project>
