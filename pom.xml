@@ -55,7 +55,7 @@
     <camel.version>2.23.2</camel.version>
     <checkstyle.version>8.20</checkstyle.version>
     <jackson2.version>2.9.9</jackson2.version>
-    <narayana.version>5.9.1.Final-redhat-00001</narayana.version>
+    <narayana.version>5.9.3.Final-redhat-00001</narayana.version>
     <openshift-client.version>3.1.8</openshift-client.version>
     <spring-boot.version>2.1.4.RELEASE</spring-boot.version>
 
