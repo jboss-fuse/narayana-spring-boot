@@ -60,7 +60,7 @@
     <jms-api.version>2.0.1</jms-api.version>
     <junit.version>4.12</junit.version>
     <mockito.version>2.20.0</mockito.version>
-    <narayana.version>5.9.1.Final-redhat-00001</narayana.version>
+    <narayana.version>5.9.3.Final-redhat-00001</narayana.version>
     <kubernetes-client.version>3.1.8</kubernetes-client.version>
     <spring-boot.version>1.5.18.RELEASE</spring-boot.version>
     <spring.version>4.3.20.RELEASE</spring.version>
