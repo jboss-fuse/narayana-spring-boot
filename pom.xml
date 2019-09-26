@@ -55,7 +55,7 @@
     <checkstyle.version>8.5</checkstyle.version>
     <commons-dbcp2.version>2.1.1</commons-dbcp2.version>
     <jackson2.version>2.9.9</jackson2.version>
-    <jboss-logging.version>3.2.1.Final</jboss-logging.version>
+    <jboss-logging.version>3.4.0.Final-redhat-00001</jboss-logging.version>
     <jboss-transaction-spi.version>7.6.0.Final</jboss-transaction-spi.version>
     <jms-api.version>2.0.1</jms-api.version>
     <junit.version>4.12</junit.version>
