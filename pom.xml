@@ -63,7 +63,7 @@
     <narayana.version>5.9.3.Final-redhat-00001</narayana.version>
     <kubernetes-client.version>3.1.8</kubernetes-client.version>
     <spring-boot.version>1.5.19.RELEASE</spring-boot.version>
-    <spring.version>4.3.20.RELEASE</spring.version>
+    <spring.version>4.3.25.RELEASE</spring.version>
     <transaction-api.version>1.2</transaction-api.version>
 
     <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
