@@ -61,7 +61,7 @@
     <junit.version>4.12</junit.version>
     <logback.version>1.2.3</logback.version>
     <mockito.version>2.20.0</mockito.version>
-    <narayana.version>5.9.6.Final-redhat-00001</narayana.version>
+    <narayana.version>5.9.8.Final-redhat-00002</narayana.version>
     <kubernetes-client.version>3.1.8</kubernetes-client.version>
     <spring-boot.version>1.5.22.RELEASE</spring-boot.version>
     <spring.version>4.3.25.RELEASE</spring.version>
