@@ -54,8 +54,10 @@
     <byteman.version>4.0.6</byteman.version>
     <camel.version>2.23.2</camel.version>
     <checkstyle.version>8.20</checkstyle.version>
+    <!-- ENTESB-12869: versions from com.fasterxml.jackson/jackson-bom/2.9.10.20200411-redhat-00001 -->
     <jackson2.version>2.9.10</jackson2.version>
-    <narayana.version>5.9.6.Final-redhat-00001</narayana.version>
+    <jackson2.databind.version>2.9.10.4-redhat-00001</jackson2.databind.version>
+    <narayana.version>5.9.8.Final-redhat-00002</narayana.version>
     <openshift-client.version>4.1.0</openshift-client.version>
     <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
 
@@ -164,7 +166,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>${jackson2.version}.1</version>
+        <version>${jackson2.databind.version}</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
