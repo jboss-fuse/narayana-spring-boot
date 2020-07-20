@@ -18,7 +18,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>me.snowdrop</groupId>
   <artifactId>narayana-spring-boot-parent</artifactId>
-  <version>2.1.1-SNAPSHOT</version>
+  <version>2.1.1.fuse-sb2-780003</version>
   <packaging>pom</packaging>
 
   <name>Narayana Spring Boot :: parent</name>
@@ -52,7 +52,7 @@
 
     <awaitility.version>3.0.0</awaitility.version>
     <byteman.version>4.0.6</byteman.version>
-    <camel.version>2.23.2</camel.version>
+    <camel.version>2.23.2.fuse-780003</camel.version>
     <checkstyle.version>8.20</checkstyle.version>
     <!-- ENTESB-12869: versions from com.fasterxml.jackson/jackson-bom/2.9.10.20200411-redhat-00001 -->
     <jackson2.version>2.9.10</jackson2.version>
