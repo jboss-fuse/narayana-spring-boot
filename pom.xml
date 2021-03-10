@@ -57,9 +57,9 @@
     <!-- ENTESB-12869: versions from com.fasterxml.jackson/jackson-bom/2.9.10.20200411-redhat-00001 -->
     <jackson2.version>2.9.10</jackson2.version>
     <jackson2.databind.version>2.9.10.4-redhat-00001</jackson2.databind.version>
-    <narayana.version>5.9.8.Final-redhat-00002</narayana.version>
+    <narayana.version>5.10.6.Final-redhat-00001</narayana.version>
     <openshift-client.version>4.6.2</openshift-client.version>
-    <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
+    <spring-boot.version>2.3.9.RELEASE</spring-boot.version>
 
     <maven-checkstyle-plugin.version>3.0.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
