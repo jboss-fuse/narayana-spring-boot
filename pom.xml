@@ -55,7 +55,9 @@
     <camel-spring-boot.version>3.18.3</camel-spring-boot.version>
     <narayana.version>5.13.0.Final</narayana.version>
     <openshift-client.version>4.13.3</openshift-client.version>
-    <spring-boot.version>2.7.5</spring-boot.version>
+
+    <snakeyaml.version>1.33</snakeyaml.version>
+    <spring-boot.version>2.7.6</spring-boot.version>
     <jboss-transaction-spi.version>7.6.1.Final</jboss-transaction-spi.version>
 
     <maven-checkstyle-plugin.version>3.1.1</maven-checkstyle-plugin.version>
@@ -131,11 +133,16 @@
         <artifactId>byteman-bmunit5</artifactId>
         <version>${byteman.version}</version>
       </dependency>
-       <dependency>
-          <groupId>org.jboss</groupId>
-          <artifactId>jboss-transaction-spi</artifactId>
-          <version>${jboss-transaction-spi.version}</version>
-        </dependency>
+      <dependency>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-transaction-spi</artifactId>
+        <version>${jboss-transaction-spi.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>${snakeyaml.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
