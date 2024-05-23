@@ -83,6 +83,9 @@ public class NarayanaPropertiesInitializer implements InitializingBean {
     }
 
     private void setXARecoveryNodes(List<String> xaRecoveryNodes) {
+        if (xaRecoveryNodes.isEmpty()) {
+            xaRecoveryNodes = List.of(getPopulator(CoreEnvironmentBean.class).getNodeIdentifier());
+        }
         getPopulator(JTAEnvironmentBean.class).setXaRecoveryNodes(xaRecoveryNodes);
     }
 
