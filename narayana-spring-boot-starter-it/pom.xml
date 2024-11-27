@@ -52,7 +52,6 @@
     <dependency>
         <groupId>io.agroal</groupId>
         <artifactId>agroal-spring-boot-starter</artifactId>
-        <version>${agroal.version}</version>
         <scope>test</scope>
     </dependency>
     <dependency>

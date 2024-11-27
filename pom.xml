@@ -144,6 +144,11 @@
         <artifactId>byteman-bmunit5</artifactId>
         <version>${byteman.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.agroal</groupId>
+        <artifactId>agroal-spring-boot-starter</artifactId>
+        <version>${agroal.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
