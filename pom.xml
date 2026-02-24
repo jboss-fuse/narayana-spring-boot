@@ -58,7 +58,7 @@
     <narayana.version>7.2.2.Final</narayana.version>
     <openshift-client.version>7.3.1</openshift-client.version>
     <spring-boot.version>3.5.11</spring-boot.version>
-    <vertx.version>4.5.22</vertx.version>
+    <vertx.version>4.5.24</vertx.version>
 
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
@@ -165,6 +165,11 @@
         <artifactId>vertx-web-client</artifactId>
         <version>${vertx.version}</version>
       </dependency>
+      <dependency>
+        <groupId>io.vertx</groupId>
+        <artifactId>vertx-auth-oauth2</artifactId>
+        <version>${vertx.version}</version>
+      </dependency>      
     </dependencies>
   </dependencyManagement>
 
